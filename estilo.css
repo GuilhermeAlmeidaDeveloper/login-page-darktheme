@@ -27,12 +27,17 @@ body * {
     align-items: center;
     flex-direction: column;
 
+
+}
+
+h1 {
+    margin-left: 155px;
 }
 
 .left-login > h1 {
     color: #77ffc0;
     font-size: 3vw;
-
+    
 }
 
 .left-login-image {
@@ -121,6 +126,26 @@ body * {
     }
 }
 
+@media only screen and (max-width: 1040px ) {
+    .card-login {
+        width: 55%
+    }
+
+    h1 {
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width: 807px ) {
+    .card-login {
+        width: 55%
+    }
+
+    h1 {
+        margin-left: 80px;
+    }
+
+}
 @media only screen and (max-width: 600px ) {
     .main-login {
         display: flex;
